@@ -1,0 +1,83 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*Begin CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End CSS reset*/
+h1	{
+	margin-bottom: 1vw;
+	margin-top: 1.5vw;
+	font-family: "Arial";
+	font-size: 5vw;
+}
+h2	{
+	font-family: "Arial";
+	font-size: 2vw;
+	color: navy;
+	margin-bottom: 1vw;
+	margin-top: .5vw;
+}
+body	{
+	background: rgb(219, 215, 212);
+	margin-left: .5vw;
+}
+nav		{
+	font-family: "Arial";
+	font-size: 2vw;
+	margin-bottom: 2vw;
+}
+ul	{
+	margin-left: 3vw;
+	font-size: 1em;
+	font-family: "Arial";
+}
+footer	{
+	margin: 3vw;
+}
+#list_item	{
+	font-family: "Arial";
+	color: rgb(101, 84, 255)
+}

@@ -50,34 +50,117 @@ table {
 h1	{
 	margin-bottom: 1vw;
 	margin-top: 1.5vw;
-	font-family: "Arial";
+	font-family: 'Roboto', sans-serif;
 	font-size: 5vw;
+	text-align: center;
 }
 h2	{
-	font-family: "Arial";
-	font-size: 2vw;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vw;
 	color: navy;
-	margin-bottom: 1vw;
-	margin-top: .5vw;
+	padding: 1em;
 }
 body	{
-	background: rgb(219, 215, 212);
+	background: #aaa9a9;
 	margin-left: .5vw;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center-left;
 }
 nav		{
-	font-family: "Arial";
+	font-family: 'Roboto', sans-serif;
 	font-size: 2vw;
-	margin-bottom: 2vw;
+	width: 100%;
+	
 }
-ul	{
+ul 	{
 	margin-left: 3vw;
-	font-size: 1em;
-	font-family: "Arial";
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;
+}
+b {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-left: 1em;
 }
 footer	{
 	margin: 3vw;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+nav ul {
+	width: 100%;
+	overflow: hidden;
+}
+nav ul li {
+	width: 30%;
+	float: left;
+}
+nav ul li a {
+	display: block;
+	width: 100%;
+}
+
+p	{
+	text-align: center;
+	padding-top: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+}
+img	{
+	display: block;
+	margin: 1em auto;
+	width: 50%;
+	height: auto;
+	border-radius: 1em;
+}
+video	{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: 1em auto;
+	border-radius: .5em;
+}
+a:link	{
+	color: #000;
+}
+a:visited	{
+	color: #000;
+}
+a:link:hover	{
+	color: #000;
+}	
+nav ul li a {
+  text-align: center;
+  align: center;
+  padding: 1em 0;
+  display: block;
+  width: 100%;
+  background: #e5e5e5;
+  }
+nav ul li a,
+nav ul li a:focus,
+nav ul li a:visited,
+nav ul li a:hover,
+nav ul li a:active {
+	color: #000;
+	text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:active {
+	background: #c1c1c1;
+}
+nav ul li:first-child a {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+nav ul li:last-child a {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 #l1 a,#l2 a,#l3 a,#l4 a,#l5 a	{
 	font-family: "Arial";
 	color: rgb(101, 84, 255)
+	list-style:	circle;
+	margin: 1em;
 }

@@ -50,12 +50,12 @@ table {
 h1	{
 	margin-bottom: 1vw;
 	margin-top: 1.5vw;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Changa One', 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 250%;
 	text-align: center;
 }
 h2	{
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Francois One', 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 150%;
 	color: #ff6e00;
 	padding: .5em;
@@ -78,7 +78,7 @@ body	{
 	color: #d1d1d1;
 }
 nav		{
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Francois One', 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 120%;
 	width: 100%;
 	
@@ -86,7 +86,7 @@ nav		{
 ul 	{
 	margin-left: 3vw;
 	font-size: 100%;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Francois One', 'Roboto', Arial, Helvetica, sans-serif;
 }
 b {
 	font-weight: bold;
@@ -114,7 +114,7 @@ nav ul li a {
 p	{
 	text-align: center;
 	padding-top: 1em;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Francois One', 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 2.5vw;
 }
 img	{

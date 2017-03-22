@@ -50,33 +50,42 @@ table {
 h1	{
 	margin-bottom: 1vw;
 	margin-top: 1.5vw;
-	font-family: 'Roboto', sans-serif;
-	font-size: 5vw;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 250%;
 	text-align: center;
 }
 h2	{
-	font-family: 'Roboto', sans-serif;
-	font-size: 3vw;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 150%;
 	color: navy;
-	padding: 1em;
+	padding: .5em;
+}
+h3	{
+	padding-left: 1em;
+	font-size: 130%;
+}
+h4	{
+	padding-left: 1em;
+	padding-top:.5vw;
+	font-size: 120%;
 }
 body	{
-	background: #aaa9a9;
+	background: #d36450;
 	margin-left: .5vw;
 	width: 100%;
 	margin: 0 auto;
-	text-align: center-left;
+	text-align: left;
 }
 nav		{
-	font-family: 'Roboto', sans-serif;
-	font-size: 2vw;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 120%;
 	width: 100%;
 	
 }
 ul 	{
 	margin-left: 3vw;
-	font-size: 1.1em;
-	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 b {
 	font-weight: bold;
@@ -86,14 +95,14 @@ b {
 footer	{
 	margin: 3vw;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 nav ul {
-	width: 100%;
+	width: 101%;
 	overflow: hidden;
 }
 nav ul li {
-	width: 30%;
+	width: 31%;
 	float: left;
 }
 nav ul li a {
@@ -104,22 +113,25 @@ nav ul li a {
 p	{
 	text-align: center;
 	padding-top: 1em;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 2.5vw;
 }
 img	{
 	display: block;
 	margin: 1em auto;
-	width: 50%;
+	width: 30%;
 	height: auto;
 	border-radius: 1em;
 }
 video	{
-	width: 50%;
+	width: 40%;
 	height: auto;
 	display: block;
 	margin: 1em auto;
-	border-radius: .5em;
+}
+iframe	{
+	width: 50%;
+	height: auto;
 }
 a:link	{
 	color: #000;
@@ -132,11 +144,10 @@ a:link:hover	{
 }	
 nav ul li a {
   text-align: center;
-  align: center;
   padding: 1em 0;
   display: block;
   width: 100%;
-  background: #e5e5e5;
+  background: #ff8438;
   }
 nav ul li a,
 nav ul li a:focus,
@@ -148,7 +159,7 @@ nav ul li a:active {
 }
 nav ul li a:hover,
 nav ul li a:active {
-	background: #c1c1c1;
+	background: #ff6100;
 }
 nav ul li:first-child a {
   border-top-left-radius: 1em;
@@ -158,9 +169,19 @@ nav ul li:last-child a {
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
 }
+
 #l1 a,#l2 a,#l3 a,#l4 a,#l5 a	{
 	font-family: "Arial";
-	color: rgb(101, 84, 255)
-	list-style:	circle;
-	margin: 1em;
+	color: rgb(101, 84, 255);
+}
+#ip	{
+	font-size: 20px;
+}
+#inav	{
+	font-size: 17px;
+	width: 1000px;
+	
+}
+#ih1	{
+	font-size: 30px;
 }
